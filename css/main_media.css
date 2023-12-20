@@ -1,0 +1,37 @@
+/* от 0 до 1000 */
+@media screen and (max-width: 1000px) {
+	main {
+		padding: 0% 0%;
+	}
+		main > #content {
+			width: 100%;
+			order: -1;
+		}
+		main > aside {
+			width: 100%;
+		}
+}
+
+
+/* от 768 до 1000 */
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+	html{
+		font-size: 13px;
+	}
+
+		footer > div.content > a {
+			width: 33.333333%;
+		}
+}
+
+
+/* от 0 до 768 */
+@media screen and (max-width: 768px) {
+	html{
+		font-size: 12px;
+	}
+
+		footer > div.content > a {
+			width: 50%;
+		}
+}
