@@ -63,7 +63,7 @@
 		}
 			.navbar_wrap > .menu > a {
 				align-self: center;
-				font: normal 16.7px/18.7px verdana,tahoma,sans-serif;
+				font: normal 1.4rem/1.6rem verdana,tahoma,sans-serif;
 				text-decoration: none;
 				padding: 10px 15px;
 				color: var(--putdate_bg);
