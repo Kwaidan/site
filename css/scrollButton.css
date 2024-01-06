@@ -1,0 +1,28 @@
+/* Управляет поведением прокрутки внутри блока. Значение smooth делает её плавной */
+/* 
+html {
+  scroll-behavior: smooth;
+} 
+*/
+
+
+
+/* кнопка для прокрутки */
+button.scrollButton {
+	position: fixed; /* фиксированное позиционирование */
+	right: 10px; /* отступ справа */
+	top: 50%; /* выравниваем по центру */
+	transform: translateY(-50%); /* выравниваем по центру */
+	
+	border: 0;
+	cursor: pointer;
+	z-index: 49;
+	font-size: 1.6rem;
+	padding: 15px 10px;
+	background-color: var(--label_bgcolor);
+	color: var(--body_bgcolor);
+	transition: all 0.5s ease;
+}
+button.scrollButton:hover {
+	color: white;
+}
